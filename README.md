@@ -1,15 +1,15 @@
 ## Controllable HE-to-IHC Translation with Diffusion Pretraining and Feature Alignment (DiFA)
-
+DiFA is a novel framework HE-to-IHC translation method, which consists of DDPM-based multi-domain pretraining and DDIM-based inter-domain latent feature alignment, to overcome the limitation of pixel misalignment between HE and IHC. We derive a deterministic inference process instead of stochasticity diffusion to ensure the spatial consistency between HE and generated IHC. DiFA achieves controllable and high-quality one-to-many translation with class guidance.
 
 ## Install
-1. Clone this repository:
+<!-- 1. Clone this repository: -->
 
-```bash
+<!-- ```bash
 git clone https://github.com/JLINEkai/DiFA.git
 cd DiFA
-```
+``` -->
 
-2. Create the conda environment and install the package
+Create the conda environment and install the package
 
 ```bash
 conda create -n difa python=3.10 
