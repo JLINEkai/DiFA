@@ -49,7 +49,7 @@ accelerate launch --multi_gpu --num_processes 8 train_ddim_cycle.py --model DiT-
 torchrun --nproc_per_node=1 sample_ddim_ddp.py
 ```
 
-## Visualiztion
+## Visualization
 <p align="center">
     <img src="visualization.png" width="90%"> <br>
  
